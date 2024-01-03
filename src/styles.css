@@ -1,0 +1,131 @@
+* {
+    font-size:16px;
+}
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto',sans-serif;
+    font-size:1rem;
+    color:#444444;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family : 'inter',sans-serif;
+    font-weight: 600;
+    color:#222222;
+}
+h1{font-size:2.5rem;font-size:2.5rem;}
+h2{font-size:2.0rem;}
+h3{font-size:1.75rem;}
+h4{font-size:1.5rem;}
+h5{font-size:1.25rem;}
+h6{font-size:1.0rem;}
+h1{
+    text-align:center;
+}
+#banner {
+    width:100%;
+    object-fit: cover;
+}
+.location {
+    color:gray;
+    margin-bottom:16px;
+}
+#navbar {
+    padding:8px;
+}
+.column {
+    display:flex;
+    max-width:800px;
+    margin:0 auto;
+    padding:8px;
+}
+.c1 {
+    width:50%;
+    padding-right:8px;
+    font-size:1.25rem;
+}
+.c2 {
+    width:50%;
+}
+#team-image{
+    padding:38px;
+    border-radius:5px;
+    width:220px;
+    height:200px;
+}
+h2{
+    text-align:center;
+}
+#jobs{
+    max-width:800px;
+    margin:0 250px;
+    padding:8px;
+}
+#table {
+    width:100%;
+    border:1px solid gray;
+    border-collapse: collapse;
+    text-align:left;
+}
+.row th,td {
+    border-right:1px solid gray;
+    padding:8px;
+    color:#222222;
+}
+.row th{
+    border-bottom : 1px solid gray;
+    background-color: #BFDBFE;
+}
+#table tr:nth-child(odd){
+    background-color: #EFF6FF;
+}
+.apply {
+    float:right;
+}
+
+a {
+    text-decoration:none;
+    color:#3B82F6;
+}
+
+a:hover,a:focus{
+    color:white;
+}
+
+#footer {
+    background-color: ghostwhite;
+    text-align:center;
+    margin-bottom:10px;
+}
+
+#footer-links{
+    list-style:none;
+}
+
+#footer-links li {
+    display:inline;
+    margin:0 80px;
+}
+.set {
+    color:gray;
+    font-size:0.875rem;
+}
+.application {
+    margin:0 auto;
+    padding:800px;
+}
+.selector {
+    margin:0 auto;
+    padding:0 400;
+    max-width:800px;
+}
+.selector input{
+    display:flex;
+    padding:4px;
+    border-radius:5px;
+}
+.selector textarea{
+   display:flex;
+}
+

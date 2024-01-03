@@ -1,0 +1,181 @@
+<html lang="en">
+
+<head>
+    <title>
+        My First Web Page
+    </title>
+    <style>
+        h1 {
+            text-align: center;
+            color: green;
+        }
+    </style>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Roboto:ital,wght@0,500;1,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar">
+        <img src="jovian.png" alt="img" height="60px" width="80px">
+    </div>
+    <img id="banner" src="banner.jpg" alt="img" height="360px">
+    <h1 style="text-align:center;color:black">About Jovian</h1>
+    <div class="column">
+        <p>
+        <div class="c1" style="margin-top:35px;">
+            At Jovian,we're on a mission Lorem ipsum
+            dolor sit amet consectetur adipisicing elit.
+            Perspiciatis velit animi incidunt!
+            Nemo libero vero aliquam necessitatibus impedit molestiae,
+            laudantium aspernatur sit eaque vel blanditiis placeat ratione
+            incidunt voluptatum
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+            Laboriosam veniam ea eum rem consectetur provident minima
+            dignissimos laudantium, nam, delectus unde ratione?
+            Doloribus, optio! Ex debitis quae laboriosam earum ea?
+            <div>
+                <p>
+                    We also offer 2 industry focused bootcamps
+                <ol>
+                    <li>
+                        <a href="www.xyz.com">
+                            Jovian BackEnd Bootcamp
+                        </a>
+                    </li>
+                    <li>
+                        <a href="www.abc.com">
+                            Jovian Data Science Bootcamp
+                        </a>
+                    </li>
+                </ol>
+                </p>
+            </div>
+        </div>
+        <div class="c1">
+            <img id="team-image" src="team.jpg" alt="img">
+        </div>
+        </p>
+    </div>
+    <h2>Job Opportunities</h2>
+    <div id="jobs">
+        <table id="table">
+            <tr class="row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2" style="text-align:center">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="row">
+                <th style="text-align:center">City</th>
+                <th style="text-align:center">Country</th>
+            </tr>
+            <tr class="row">
+                <td>Frontend Developer</td>
+                <td>Bengaluru</td>
+                <td>India</td>
+                <td>$12,00,000</td>
+                <td>March 3,2023</td>
+            </tr>
+            <tr class="row">
+                <td>Full Stack Web Developer</td>
+                <td>New Delhi</td>
+                <td>India</td>
+                <td>$15,00,000</td>
+                <td>Feb 1,2023</td>
+            </tr>
+            <tr class="row">
+                <td>Data Scientist</td>
+                <td>San Francisco</td>
+                <td>USA</td>
+                <td>$80,000</td>
+                <td>Dec 22,2022</td>
+            </tr>
+            <tr class="row">
+                <td>Machine Learning engineer</td>
+                <td>Remote</td>
+                <td></td>
+                <td>$80,000</td>
+                <td>Sep 19,2022</td>
+            </tr>
+        </table>
+    </div>
+    <div id="application">
+        <!--ToDo Sample Form-->
+        <h2>Submit Your Application Form</h2>
+        <form action="" id="application-form">
+            <div class="selector">
+                <label for="name">Name</label>
+                <input type="text" name="Full Name" placeholder="John Doe" required>
+            </div>
+            <div class="selector">
+                <label for="email">Enter</label>
+                <input type="email" name="Email" id="email" placeholder="abc@gmail.com" required>
+            </div>
+            <div class="selector">
+                <label for="phone">Mobile Number</label>
+                <input type="number" name="Phone" id="Phone" placeholder="+91,333333333" required>
+            </div>
+            <div class="selector">
+                <label for="position">Position Applied For</label>
+                <select name="Position" id="position" style="display:flex">
+                    <option value="0">
+                        Select
+                    </option>
+                    <option value="1">
+                        Frontend Developer
+                    </option>
+                    <option value="2">
+                        BackEnd Developer
+                    </option>
+                    <option value="3">
+                        Data Scientist
+                    </option>
+                    <option value="4">
+                        Machine Learning Scientist
+                    </option>
+                </select>
+            </div>
+            <div class="selector">
+                <label for="resume">Cover Letter</label>
+                <textarea name="CV" id="resume" cols="30" rows="5"></textarea>
+            </div>
+            <div class="selector">
+                <input type="checkbox" name="condition" id="condition" style="display:inline-block;margin-bottom:25px"
+                    required>
+                <label for="condition">I agree to the Terms and Conditions</label>
+            </div>
+            <div class="selector">
+                <button id="sub">Submit</button>
+            </div>
+        </form>
+    </div>
+    <div id="footer">
+        <ul id="footer-links">
+            <li>
+                <a href="kkkk" target="_blank">
+                    Courses
+                </a>
+
+            </li>
+            <li>
+                <a href="youtube.com" target="_blank">
+                    Programs
+                </a>
+            </li>
+            <li>
+                <a href="utube" target="_blank">
+                    YouTube
+                </a>
+            </li>
+        </ul>
+        <span class="set">
+            © 2023, Jovian
+        </span>
+    </div>
+</body>
+
+</html>
